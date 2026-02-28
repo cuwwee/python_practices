@@ -15,8 +15,7 @@ def even_numbers(n):
             yield i
 
 n = int(input("2. Enter a numner: "))
-even_list = [str(num) for num in even_numbers(n)]
-print("Even numbers:", ", ".join(even_list))
+print("Even numbers:", list(even_numbers(n)))
 print()
 
 
